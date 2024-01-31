@@ -1,7 +1,7 @@
 const { transform } = require("@svgr/core");
 // const { resolveConfig, transform } = require("@svgr/core");
 // const resolveConfigDir = require("path-dirname");
-const upstreamTransformer = require("metro-react-native-babel-transformer");
+const upstreamTransformer = require("@expo/metro-config/babel-transformer");
 
 const defaultSVGRConfig = {
   native: true,
